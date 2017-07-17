@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="WatsonSdkSample.VisualRecognition.Pages.PostItsPage">
+	<ContentPage.Content>
+        <StackLayout>
+        <Grid HorizontalOptions="FillAndExpand"
+              VerticalOptions="FillAndExpand">
+
+            <Label x:Name="label"
+                   Text="Please take a picture of the flip chart."
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center"/>
+
+            <ActivityIndicator x:Name="indicator"
+                               IsRunning="True"
+                               IsVisible="False"
+                               VerticalOptions="Center"
+                               HorizontalOptions="Center"/>
+
+            <Image x:Name="image"
+                   HorizontalOptions="FillAndExpand"
+                   VerticalOptions="FillAndExpand"
+                   Margin="5,12,5,0" />
+        </Grid>
+        <Button BackgroundColor="#2196F3"
+                TextColor="White"
+                Text="Take Photo"
+                Clicked="Handle_Clicked" />
+    </StackLayout>
+	</ContentPage.Content>
+</ContentPage>

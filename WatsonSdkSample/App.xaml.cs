@@ -8,7 +8,7 @@ namespace WatsonSdkSample
 		{
 			InitializeComponent();
 
-			MainPage = new WatsonSdkSamplePage();
+            MainPage = new NavigationPage(new RootPage());
 		}
 
 		protected override void OnStart()

@@ -105,6 +105,9 @@
     <Reference Include="IBM.WatsonDeveloperCloud">
       <HintPath>..\packages\IBM.WatsonDeveloperCloud.1.1.0\lib\netstandard1.3\IBM.WatsonDeveloperCloud.dll</HintPath>
     </Reference>
+    <Reference Include="IBM.WatsonDeveloperCloud.VisualRecognition.v3">
+      <HintPath>..\packages\IBM.WatsonDeveloperCloud.VisualRecognition.v3.1.1.0\lib\netstandard1.3\IBM.WatsonDeveloperCloud.VisualRecognition.v3.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
